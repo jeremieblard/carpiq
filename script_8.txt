@@ -1,0 +1,1188 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://www.autoscout24.ch",
+  "sameAs": [
+    "https://www.facebook.com/autoscout24",
+    "https://www.instagram.com/autoscout24"
+  ],
+  "name": "AutoScout24",
+  "description": "AutoScout24: Le plus grand choix de véhicules d'occasion et neufs vous attend sur la plus célèbre place de marché en ligne de Suisse.",
+  "email": "kontakt@autoscout24.ch",
+  "telephone": "+41 31 744 17 37",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Thurgauerstrasse 36",
+    "addressLocality": "Zürich",
+    "addressCountry": "CH",
+    "postalCode": "8050"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+41 31 744 17 37",
+      "contactType": "customer service",
+      "areaServed": "CH",
+      "availableLanguage": [
+        "English",
+        "German",
+        "French",
+        "Italian"
+      ],
+      "hoursAvailable": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "12:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "13:00",
+          "closes": "16:00"
+        }
+      ]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+41 31 744 21 31",
+      "contactType": "sales",
+      "areaServed": "CH",
+      "availableLanguage": [
+        "English",
+        "German",
+        "French",
+        "Italian"
+      ],
+      "hoursAvailable": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "12:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "13:00",
+          "closes": "17:00"
+        }
+      ]
+    }
+  ],
+  "mainEntity": {
+    "@type": "WebPageElement",
+    "name": "Product Listings",
+    "offers": {
+      "@type": "OfferCatalog",
+      "name": "VW GOLF, Essence - Véhicules neufs et d'occasion",
+      "itemListElement": [
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20302152",
+          "image": "https://listing-images.autoscout24.ch/listing/152/20302152/1125135566.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG LEDERPAKET, Essence, Automatique, 266 PS, 9'950 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 37990,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20302152",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Fischer Ettingen GmbH",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ettingen",
+                "postalCode": "4107"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 9950,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 266,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/152/20302152/1125135566.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20302093",
+          "image": "https://listing-images.autoscout24.ch/listing/93/20302093/215221686.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG LEDERPAKET, Essence, Automatique, 266 PS, 7'500 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 37990,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20302093",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Fischer Ettingen GmbH",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ettingen",
+                "postalCode": "4107"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 7500,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 266,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/93/20302093/215221686.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20302048",
+          "image": "https://listing-images.autoscout24.ch/listing/48/20302048/2111690000.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG LEDERPAKET, Essence, Automatique, 266 PS, 10'200 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 37990,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20302048",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Fischer Ettingen GmbH",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ettingen",
+                "postalCode": "4107"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 10200,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 266,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/48/20302048/2111690000.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20301979",
+          "image": "https://listing-images.autoscout24.ch/listing/979/20301979/150240126.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG LEDERPAKET, Essence, Automatique, 245 PS, 29'200 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 32990,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-lederpaket-20301979",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Fischer Ettingen GmbH",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ettingen",
+                "postalCode": "4107"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG LEDERPAKET",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 29200,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 245,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/979/20301979/150240126.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI R DSG 4Motion R Performance *Carbon*Lenkradheizung*Ambientebeleuchtung*",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-r-dsg-4motion-r-performance-carbon-lenkradheizung-ambientebeleuchtung-20286470",
+          "image": "https://listing-images.autoscout24.ch/listing/470/20286470/1649688304.png?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI R DSG 4Motion R Performance *Carbon*Lenkradheizung*Ambientebeleuchtung*, Essence, Manuelle robotisée, 333 PS, 18'000 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 38980,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-r-dsg-4motion-r-performance-carbon-lenkradheizung-ambientebeleuchtung-20286470",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Salon Volketswil AG",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Volketswil",
+                "postalCode": "8604"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI R DSG 4Motion R Performance *Carbon*Lenkradheizung*Ambientebeleuchtung*",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 18000,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 333,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/470/20286470/1649688304.png?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf VIII 2.0 TSI GTI DSG",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-viii-20-tsi-gti-dsg-20373904",
+          "image": "https://listing-images.autoscout24.ch/listing/904/20373904/2136208144.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf VIII 2.0 TSI GTI DSG, Essence, Manuelle robotisée, 265 PS, 16'300 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 31500,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-viii-20-tsi-gti-dsg-20373904",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Mörsburg AG",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Rickenbach",
+                "postalCode": "8545"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf VIII 2.0 TSI GTI DSG",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 16300,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 265,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/904/20373904/2136208144.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf Variant 2.0 TSI R DSG 4Motion *ACC*LaneAssist*Lenkrad- und Sitzheizung*Ambientebeleuchtung*Carplay/AndroidAuto*",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-variant-20-tsi-r-dsg-4motion-acc-laneassist-lenkrad-und-sitzheizung-ambientebeleuchtung-carplay-androidauto-20358004",
+          "image": "https://listing-images.autoscout24.ch/listing/4/20358004/1373118618.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf Variant 2.0 TSI R DSG 4Motion *ACC*LaneAssist*Lenkrad- und Sitzheizung*Ambientebeleuchtung*Carplay/AndroidAuto*, Essence, Manuelle robotisée, 320 PS, 37'500 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 35900,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-variant-20-tsi-r-dsg-4motion-acc-laneassist-lenkrad-und-sitzheizung-ambientebeleuchtung-carplay-androidauto-20358004",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Autowelt GmbH",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Langnau bei Reiden",
+                "postalCode": "6262"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf Variant 2.0 TSI R DSG 4Motion *ACC*LaneAssist*Lenkrad- und Sitzheizung*Ambientebeleuchtung*Carplay/AndroidAuto*",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 37500,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 320,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/4/20358004/1373118618.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW VIII R-Line DSG 4Motion 248PS",
+          "url": "https://www.autoscout24.ch/fr/d/vw-viii-r-line-dsg-4motion-248ps-20371559",
+          "image": "https://listing-images.autoscout24.ch/listing/559/20371559/2139530914.png?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW VIII R-Line DSG 4Motion 248PS, Essence, Automatique, 248 PS, 48'000 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 29900,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-viii-r-line-dsg-4motion-248ps-20371559",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Vendeur privé",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Bichelsee",
+                "postalCode": "8363"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW VIII R-Line DSG 4Motion 248PS",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 48000,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 248,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/559/20371559/2139530914.png?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI R DSG",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-r-dsg-20319765",
+          "image": "https://listing-images.autoscout24.ch/listing/765/20319765/1381856721.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI R DSG, Essence, Manuelle robotisée, 320 PS, 46'500 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 37900,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-r-dsg-20319765",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Vendeur privé",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Rohr",
+                "postalCode": "5032"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI R DSG",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 46500,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 320,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/765/20319765/1381856721.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-11765558",
+          "image": "https://listing-images.autoscout24.ch/listing/558/11765558/0.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG, Essence, Manuelle robotisée, 245 PS, 22'500 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 36990,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-11765558",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Vendeur privé",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Genève",
+                "postalCode": "1211"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 22500,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 245,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/558/11765558/0.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf VIII 2.0 TSI GTI Clubsport DSG / Ambientebeleuchtung / Lenkradheizung",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-viii-20-tsi-gti-clubsport-dsg-ambientebeleuchtung-lenkradheizung-20375117",
+          "image": "https://listing-images.autoscout24.ch/listing/117/20375117/1814497111.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf VIII 2.0 TSI GTI Clubsport DSG / Ambientebeleuchtung / Lenkradheizung, Essence, Manuelle robotisée, 300 PS, 35'000 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 29890,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-viii-20-tsi-gti-clubsport-dsg-ambientebeleuchtung-lenkradheizung-20375117",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Carmotion AG",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Effretikon (ZH)",
+                "postalCode": "8307"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf VIII 2.0 TSI GTI Clubsport DSG / Ambientebeleuchtung / Lenkradheizung",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 35000,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 300,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/117/20375117/1814497111.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI Clubsport DSG Black Style mit Akrapovic",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-clubsport-dsg-black-style-mit-akrapovic-20374946",
+          "image": "https://listing-images.autoscout24.ch/listing/946/20374946/1274461966.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI Clubsport DSG Black Style mit Akrapovic, Essence, Manuelle robotisée, 301 PS, 31'000 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 31990,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-clubsport-dsg-black-style-mit-akrapovic-20374946",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Swiss Cargate GmbH",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Wohlen AG",
+                "postalCode": "5610"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI Clubsport DSG Black Style mit Akrapovic",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 31000,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 301,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/946/20374946/1274461966.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI DSG 4 MOTION R-LINE *** PANORAMAGLASDACH & VIELES MEHR ***",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-dsg-4-motion-r-line-panoramaglasdach-and-vieles-mehr-20339338",
+          "image": "https://listing-images.autoscout24.ch/listing/338/20339338/1116101244.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI DSG 4 MOTION R-LINE *** PANORAMAGLASDACH & VIELES MEHR ***, Essence, Automatique, 190 PS, 14'900 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 33900,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-dsg-4-motion-r-line-panoramaglasdach-and-vieles-mehr-20339338",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "*** GARAGE REUSSER AG ***",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Winterthur",
+                "postalCode": "8404"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI DSG 4 MOTION R-LINE *** PANORAMAGLASDACH & VIELES MEHR ***",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 14900,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 190,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/338/20339338/1116101244.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-20345105",
+          "image": "https://listing-images.autoscout24.ch/listing/105/20345105/489739536.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG, Essence, Automatique, 245 PS, 42'520 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 27989,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-20345105",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Kunz",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Wohlen (AG)",
+                "postalCode": "5610"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 42520,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 245,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/105/20345105/489739536.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI Clubsport DSG *300 PS*",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-clubsport-dsg-300-ps-20345104",
+          "image": "https://listing-images.autoscout24.ch/listing/104/20345104/1019875367.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI Clubsport DSG *300 PS*, Essence, Automatique, 301 PS, 20'844 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 33489,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-clubsport-dsg-300-ps-20345104",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Auto Kunz",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Wohlen (AG)",
+                "postalCode": "5610"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI Clubsport DSG *300 PS*",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 20844,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 301,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/104/20345104/1019875367.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW GOLF 2.0 TSI R DSG 4MOTION BBS XR // AKRAPOVIC // KW V3 // FULL ON TOP",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-r-dsg-4motion-bbs-xr-akrapovic-kw-v3-full-on-top-20315933",
+          "image": "https://listing-images.autoscout24.ch/listing/933/20315933/1077277632.JPG?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW GOLF 2.0 TSI R DSG 4MOTION BBS XR // AKRAPOVIC // KW V3 // FULL ON TOP, Essence, Manuelle robotisée, 320 PS, 48'000 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 42888,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-r-dsg-4motion-bbs-xr-akrapovic-kw-v3-full-on-top-20315933",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "SWPerformance - Garage",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "OBERGLATT",
+                "postalCode": "8154"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW GOLF 2.0 TSI R DSG 4MOTION BBS XR // AKRAPOVIC // KW V3 // FULL ON TOP",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 48000,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 320,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/933/20315933/1077277632.JPG?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI DSG 4 MOTION BLACK STYLE *** TOP AUSSTATTUNG & PANORAMAGLASDACH ***",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-dsg-4-motion-black-style-top-ausstattung-and-panoramaglasdach-20303222",
+          "image": "https://listing-images.autoscout24.ch/listing/222/20303222/260199615.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI DSG 4 MOTION BLACK STYLE *** TOP AUSSTATTUNG & PANORAMAGLASDACH ***, Essence, Automatique, 190 PS, 27'900 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 33700,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-dsg-4-motion-black-style-top-ausstattung-and-panoramaglasdach-20303222",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "*** GARAGE REUSSER AG ***",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Winterthur",
+                "postalCode": "8404"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI DSG 4 MOTION BLACK STYLE *** TOP AUSSTATTUNG & PANORAMAGLASDACH ***",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 27900,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 190,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/222/20303222/260199615.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf R 2.0 TSI 333 PS 4Motion R Black Edition *** AKRAPOVIC ABGAS ***",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-r-20-tsi-333-ps-4motion-r-black-edition-akrapovic-abgas-20069353",
+          "image": "https://listing-images.autoscout24.ch/listing/353/20069353/694268645.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf R 2.0 TSI 333 PS 4Motion R Black Edition *** AKRAPOVIC ABGAS ***, Essence, Automatique, 333 PS, 23'900 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 46900,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-r-20-tsi-333-ps-4motion-r-black-edition-akrapovic-abgas-20069353",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "*** GARAGE REUSSER AG ***",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Winterthur",
+                "postalCode": "8404"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf R 2.0 TSI 333 PS 4Motion R Black Edition *** AKRAPOVIC ABGAS ***",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 23900,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 333,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/353/20069353/694268645.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf 2.0 TSI GTI DSG 245PS Moonstone",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-245ps-moonstone-20306501",
+          "image": "https://listing-images.autoscout24.ch/listing/501/20306501/1966089454.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf 2.0 TSI GTI DSG 245PS Moonstone, Essence, Manuelle robotisée, 245 PS, 36'700 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 28490,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-20-tsi-gti-dsg-245ps-moonstone-20306501",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "Autopedia",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Boswil",
+                "postalCode": "5623"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf 2.0 TSI GTI DSG 245PS Moonstone",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Manuelle robotisée",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 36700,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 245,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/501/20306501/1966089454.jpg?width=96&q=90"
+            }
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VW Golf R 2.0 TSI DSG 333 PS 4MOTION R BLACK EDITION",
+          "url": "https://www.autoscout24.ch/fr/d/vw-golf-r-20-tsi-dsg-333-ps-4motion-r-black-edition-20287185",
+          "image": "https://listing-images.autoscout24.ch/listing/185/20287185/1705568242.jpg?width=96&q=90",
+          "brand": {
+            "@type": "Brand",
+            "name": "VW"
+          },
+          "model": "GOLF",
+          "description": "VW Golf R 2.0 TSI DSG 333 PS 4MOTION R BLACK EDITION, Essence, Automatique, 333 PS, 1'500 km",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "CHF",
+            "price": 49500,
+            "priceValidUntil": "2027-04-15",
+            "availability": "https://schema.org/InStock",
+            "url": "https://www.autoscout24.ch/fr/d/vw-golf-r-20-tsi-dsg-333-ps-4motion-r-black-edition-20287185",
+            "seller": {
+              "@type": "AutoDealer",
+              "name": "*** GARAGE REUSSER AG ***",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Winterthur",
+                "postalCode": "8404"
+              }
+            },
+            "itemOffered": {
+              "@type": "Car",
+              "name": "VW Golf R 2.0 TSI DSG 333 PS 4MOTION R BLACK EDITION",
+              "brand": {
+                "@type": "Brand",
+                "name": "VW"
+              },
+              "model": "GOLF",
+              "vehicleTransmission": "Automatique",
+              "mileageFromOdometer": {
+                "@type": "QuantitativeValue",
+                "value": 1500,
+                "unitCode": "KMT"
+              },
+              "vehicleEngine": {
+                "@type": "EngineSpecification",
+                "enginePower": {
+                  "@type": "QuantitativeValue",
+                  "value": 333,
+                  "unitText": "PS"
+                },
+                "fuelType": "Essence"
+              },
+              "image": "https://listing-images.autoscout24.ch/listing/185/20287185/1705568242.jpg?width=96&q=90"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

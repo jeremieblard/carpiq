@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "version": "6.0",
+    "country": "ch",
+    "currency": "CHF",
+    "year_from": 2021,
+    "window_days": 120,
+    "last_scrape": "2026-04-17"
+  },
+  "models": {
+    "vw/golf": {
+      "brand": "vw",
+      "model": "Golf",
+      "slug": "golf",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 54672,
+                "n": 68,
+                "min": 24990,
+                "max": 81980
+              },
+              {
+                "date": "2026-04-17",
+                "median": 54672,
+                "n": 68,
+                "min": 24990,
+                "max": 81980
+              }
+            ]
+          },
+          "current": {
+            "new": 54672
+          }
+        },
+        "hev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 37990,
+                "n": 51,
+                "min": 28600,
+                "max": 50900
+              },
+              {
+                "date": "2026-04-17",
+                "median": 38145,
+                "n": 48,
+                "min": 28600,
+                "max": 50900
+              }
+            ]
+          },
+          "current": {
+            "new": 38067
+          }
+        },
+        "phev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 39226,
+                "n": 14,
+                "min": 28850,
+                "max": 54960
+              },
+              {
+                "date": "2026-04-17",
+                "median": 31550,
+                "n": 17,
+                "min": 28850,
+                "max": 54960
+              }
+            ]
+          },
+          "current": {
+            "new": 35388
+          }
+        },
+        "die": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 37900,
+                "n": 7,
+                "min": 36450,
+                "max": 41990
+              }
+            ]
+          },
+          "current": {
+            "new": 37900
+          }
+        }
+      }
+    },
+    "tesla/model-y": {
+      "brand": "tesla",
+      "model": "Model Y",
+      "slug": "model-y",
+      "fuels": {
+        "bev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 49998,
+                "n": 15,
+                "min": 36999,
+                "max": 60989
+              }
+            ]
+          },
+          "current": {
+            "new": 49998
+          }
+        }
+      }
+    },
+    "toyota/rav-4": {
+      "brand": "toyota",
+      "model": "RAV4",
+      "slug": "rav-4",
+      "fuels": {
+        "phev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 59700,
+                "n": 17,
+                "min": 45900,
+                "max": 66610
+              }
+            ]
+          },
+          "current": {
+            "new": 59700
+          }
+        },
+        "hev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 58650,
+                "n": 12,
+                "min": 43900,
+                "max": 61700
+              }
+            ]
+          },
+          "current": {
+            "new": 58650
+          }
+        }
+      }
+    },
+    "bmw/3-series": {
+      "brand": "bmw",
+      "model": "Série 3",
+      "slug": "3-series",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 86900,
+                "n": 8,
+                "min": 53900,
+                "max": 94400
+              }
+            ]
+          },
+          "current": {
+            "new": 86900
+          }
+        },
+        "hev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 86700,
+                "n": 37,
+                "min": 59900,
+                "max": 111130
+              }
+            ]
+          },
+          "current": {
+            "new": 86700
+          }
+        },
+        "phev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 73300,
+                "n": 7,
+                "min": 61900,
+                "max": 81300
+              }
+            ]
+          },
+          "current": {
+            "new": 73300
+          }
+        }
+      }
+    },
+    "vw/polo": {
+      "brand": "vw",
+      "model": "Polo",
+      "slug": "polo",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 28999,
+                "n": 33,
+                "min": 19990,
+                "max": 38300
+              }
+            ]
+          },
+          "current": {
+            "new": 28999
+          }
+        }
+      }
+    },
+    "vw/tiguan": {
+      "brand": "vw",
+      "model": "Tiguan",
+      "slug": "tiguan",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 57600,
+                "n": 72,
+                "min": 29890,
+                "max": 68900
+              }
+            ]
+          },
+          "current": {
+            "new": 57600
+          }
+        },
+        "die": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 57900,
+                "n": 49,
+                "min": 38550,
+                "max": 66990
+              }
+            ]
+          },
+          "current": {
+            "new": 57900
+          }
+        },
+        "phev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 42550,
+                "n": 42,
+                "min": 33850,
+                "max": 67900
+              }
+            ]
+          },
+          "current": {
+            "new": 42550
+          }
+        },
+        "hev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 44990,
+                "n": 16,
+                "min": 39900,
+                "max": 57950
+              }
+            ]
+          },
+          "current": {
+            "new": 44990
+          }
+        }
+      }
+    },
+    "vw/t-roc": {
+      "brand": "vw",
+      "model": "T-Roc",
+      "slug": "t-roc",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 41300,
+                "n": 53,
+                "min": 28310,
+                "max": 54672
+              }
+            ]
+          },
+          "current": {
+            "new": 41300
+          }
+        },
+        "hev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 35500,
+                "n": 43,
+                "min": 26550,
+                "max": 47800
+              }
+            ]
+          },
+          "current": {
+            "new": 35500
+          }
+        }
+      }
+    },
+    "vw/t-cross": {
+      "brand": "vw",
+      "model": "T-Cross",
+      "slug": "t-cross",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 31800,
+                "n": 49,
+                "min": 22490,
+                "max": 39800
+              }
+            ]
+          },
+          "current": {
+            "new": 31800
+          }
+        }
+      }
+    },
+    "vw/passat": {
+      "brand": "vw",
+      "model": "Passat",
+      "slug": "passat",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 49990,
+                "n": 6,
+                "min": 49900,
+                "max": 71200
+              }
+            ]
+          },
+          "current": {
+            "new": 49990
+          }
+        },
+        "die": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 58320,
+                "n": 61,
+                "min": 41850,
+                "max": 74200
+              }
+            ]
+          },
+          "current": {
+            "new": 58320
+          }
+        },
+        "hev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 68750,
+                "n": 26,
+                "min": 42250,
+                "max": 76900
+              }
+            ]
+          },
+          "current": {
+            "new": 68750
+          }
+        },
+        "phev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 46920,
+                "n": 7,
+                "min": 31850,
+                "max": 59990
+              }
+            ]
+          },
+          "current": {
+            "new": 46920
+          }
+        }
+      }
+    },
+    "vw/id3": {
+      "brand": "vw",
+      "model": "ID.3",
+      "slug": "id3",
+      "fuels": {
+        "bev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 40900,
+                "n": 68,
+                "min": 29890,
+                "max": 56900
+              }
+            ]
+          },
+          "current": {
+            "new": 40900
+          }
+        }
+      }
+    },
+    "vw/id4": {
+      "brand": "vw",
+      "model": "ID.4",
+      "slug": "id4",
+      "fuels": {
+        "bev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 55418,
+                "n": 44,
+                "min": 34260,
+                "max": 67990
+              }
+            ]
+          },
+          "current": {
+            "new": 55418
+          }
+        }
+      }
+    },
+    "vw/id5": {
+      "brand": "vw",
+      "model": "ID.5",
+      "slug": "id5",
+      "fuels": {
+        "bev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 53949,
+                "n": 2,
+                "min": 50900,
+                "max": 56998
+              }
+            ]
+          },
+          "current": {
+            "new": 53949
+          }
+        }
+      }
+    },
+    "vw/touareg": {
+      "brand": "vw",
+      "model": "Touareg",
+      "slug": "touareg",
+      "fuels": {
+        "ice": {
+          "observations": {},
+          "current": {}
+        },
+        "die": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 108895,
+                "n": 16,
+                "min": 73550,
+                "max": 116990
+              }
+            ]
+          },
+          "current": {
+            "new": 108895
+          }
+        },
+        "phev": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 109900,
+                "n": 5,
+                "min": 109900,
+                "max": 115750
+              }
+            ]
+          },
+          "current": {
+            "new": 109900
+          }
+        }
+      }
+    },
+    "vw/touran": {
+      "brand": "vw",
+      "model": "Touran",
+      "slug": "touran",
+      "fuels": {
+        "ice": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 41650,
+                "n": 41,
+                "min": 32850,
+                "max": 52800
+              }
+            ]
+          },
+          "current": {
+            "new": 41650
+          }
+        },
+        "die": {
+          "observations": {
+            "new": [
+              {
+                "date": "2026-04-17",
+                "median": 56275,
+                "n": 2,
+                "min": 55750,
+                "max": 56800
+              }
+            ]
+          },
+          "current": {
+            "new": 56275
+          }
+        }
+      }
+    }
+  }
+}

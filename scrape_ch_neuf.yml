@@ -1,0 +1,91 @@
+name: CarPIQ — Scrape CH Neuf
+
+on:
+  schedule:
+    # Rotation mensuelle — semaine 2 : neuf CH
+    # Lundi à 22h00 CET (21h00 UTC)
+    - cron: '0 21 8-14 * 1'   # Deuxième lundi du mois
+  workflow_dispatch:
+
+jobs:
+
+  scrape-new-vag:
+    name: Neuf — VAG
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+      - run: pip install selenium webdriver-manager
+      - run: git pull origin main --rebase || true
+
+      - name: Scrape neuf VAG
+        run: |
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand vw
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand audi
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand skoda
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand seat
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand cupra
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand porsche
+
+      - name: Commit
+        run: |
+          git config user.name "CarPIQ Bot"
+          git config user.email "bot@carpiq.eu"
+          git add prices_new_v6.json
+          git diff --staged --quiet || git commit -m "🤖 Scrape CH neuf — VAG [$(date +%Y-%m-%d)]"
+          git push
+
+  scrape-new-rest:
+    name: Neuf — Reste
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    needs: scrape-new-vag
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+      - run: pip install selenium webdriver-manager
+      - run: git pull origin main --rebase || true
+
+      - name: Scrape neuf reste
+        run: |
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand bmw
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand mercedes
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand toyota
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand tesla
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand hyundai
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand kia
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand volvo
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand peugeot
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand renault
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand ford
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand mini
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand honda
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand nissan
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand mg
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand polestar
+          python3 carpiq_price_scraper_v6.py --country ch --new --brand byd
+
+      - name: Commit
+        run: |
+          git config user.name "CarPIQ Bot"
+          git config user.email "bot@carpiq.eu"
+          git add prices_new_v6.json
+          git diff --staged --quiet || git commit -m "🤖 Scrape CH neuf — Reste [$(date +%Y-%m-%d)]"
+          git push

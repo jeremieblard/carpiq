@@ -1,0 +1,161 @@
+name: CarPIQ — Scrape France Occasion
+
+on:
+  schedule:
+    - cron: '0 21 1-7 * 2'
+  workflow_dispatch:
+
+jobs:
+
+  scrape-vag:
+    name: VAG Group
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+      - run: pip install selenium webdriver-manager
+      - run: git pull origin main --rebase || true
+      - name: Scrape VAG
+        run: |
+          python3 carpiq_price_scraper_v6.py --country fr --brand vw --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand audi --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand skoda --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand seat --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand cupra --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand porsche --output prices_fr_v6.json
+      - name: Commit
+        run: |
+          git config user.name "CarPIQ Bot"
+          git config user.email "bot@carpiq.eu"
+          git add prices_fr_v6.json
+          git diff --staged --quiet || git commit -m "🤖 Scrape France occasion — VAG [$(date +%Y-%m-%d)]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  scrape-premium:
+    name: Premium DE
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    needs: scrape-vag
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+      - run: pip install selenium webdriver-manager
+      - run: git pull origin main --rebase || true
+      - name: Scrape Premium
+        run: |
+          python3 carpiq_price_scraper_v6.py --country fr --brand bmw --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand mercedes --output prices_fr_v6.json
+      - name: Commit
+        run: |
+          git config user.name "CarPIQ Bot"
+          git config user.email "bot@carpiq.eu"
+          git add prices_fr_v6.json
+          git diff --staged --quiet || git commit -m "🤖 Scrape France occasion — Premium [$(date +%Y-%m-%d)]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  scrape-fr-jp:
+    name: FR + JP
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    needs: scrape-premium
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+      - run: pip install selenium webdriver-manager
+      - run: git pull origin main --rebase || true
+      - name: Scrape FR + JP
+        run: |
+          python3 carpiq_price_scraper_v6.py --country fr --brand peugeot --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand renault --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand citroen --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand dacia --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand toyota --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand lexus --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand honda --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand mazda --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand suzuki --output prices_fr_v6.json
+      - name: Commit
+        run: |
+          git config user.name "CarPIQ Bot"
+          git config user.email "bot@carpiq.eu"
+          git add prices_fr_v6.json
+          git diff --staged --quiet || git commit -m "🤖 Scrape France occasion — FR+JP [$(date +%Y-%m-%d)]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  scrape-rest:
+    name: Coréens + Divers
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    needs: scrape-fr-jp
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Chrome
+        run: |
+          wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+          echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+          sudo apt-get update -q
+          sudo apt-get install -y google-chrome-stable
+      - run: pip install selenium webdriver-manager
+      - run: git pull origin main --rebase || true
+      - name: Scrape Reste
+        run: |
+          python3 carpiq_price_scraper_v6.py --country fr --brand hyundai --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand kia --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand genesis --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand ford --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand opel --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand volvo --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand mini --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand tesla --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand nissan --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand mg --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand byd --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand polestar --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand landrover --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand alfa --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand fiat --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand ds --output prices_fr_v6.json
+          python3 carpiq_price_scraper_v6.py --country fr --brand jeep --output prices_fr_v6.json
+      - name: Commit
+        run: |
+          git config user.name "CarPIQ Bot"
+          git config user.email "bot@carpiq.eu"
+          git add prices_fr_v6.json
+          git diff --staged --quiet || git commit -m "🤖 Scrape France occasion — Reste [$(date +%Y-%m-%d)]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
